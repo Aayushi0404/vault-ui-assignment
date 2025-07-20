@@ -18,4 +18,9 @@ document.getElementById("projectSearch").addEventListener("input", e => {
   backToTop.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
+// Smooth scroll effect for button
+document.querySelector(".btn").addEventListener("click", function(e) {
+    e.preventDefault();
+    document.querySelector("#features").scrollIntoView({ behavior: "smooth" });
+  });
       
