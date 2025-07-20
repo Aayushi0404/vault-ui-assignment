@@ -1,0 +1,47 @@
+[33mcommit 63a720c6c50896f6619b15e1987033282f153080[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Aayushi0404 <vaayushi314@gmail.com>
+Date:   Sun Jul 20 21:20:35 2025 +0530
+
+    Improved UI with responsive design and modern features
+
+[33mcommit 2d1e2647157a7c3fa8c269cc8558a3722be70e6a[m
+Author: Aayushi0404 <vaayushi314@gmail.com>
+Date:   Sun Jul 20 20:57:22 2025 +0530
+
+    Add back to top button with scroll behavior
+
+[33mcommit 964fbaf5005890aea6c90ca9a08878b500844149[m
+Author: Aayushi0404 <vaayushi314@gmail.com>
+Date:   Sun Jul 20 20:56:34 2025 +0530
+
+    Add FAQ accordion section
+
+[33mcommit c34a8c80ec42295053bc51f5b8ef2b4fe0ecba39[m
+Author: Aayushi0404 <vaayushi314@gmail.com>
+Date:   Sun Jul 20 20:55:24 2025 +0530
+
+    Add project search feature
+
+[33mcommit ea110795a493f9a936370d6b80aaa306beee28fd[m
+Author: Aayushi0404 <vaayushi314@gmail.com>
+Date:   Sun Jul 20 20:54:29 2025 +0530
+
+    Add internship card section
+
+[33mcommit c2c8ee4044868381c656d08bc9c3666b1df7d37e[m
+Author: Aayushi0404 <vaayushi314@gmail.com>
+Date:   Sun Jul 20 20:53:47 2025 +0530
+
+    Add hero section with call to action
+
+[33mcommit d38c17a4a9c4f108cf584c09ce1e5928877d4d18[m
+Author: Aayushi0404 <vaayushi314@gmail.com>
+Date:   Sun Jul 20 20:50:35 2025 +0530
+
+    Add base HTML layout and header styles
+
+[33mcommit 6395ef8fe7493f964e2fb181351405c8ce478fed[m
+Author: Aayushi0404 <vaayushi314@gmail.com>
+Date:   Sun Jul 20 20:42:42 2025 +0530
+
+    Initial setup with blank files
