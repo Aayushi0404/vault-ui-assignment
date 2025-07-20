@@ -74,4 +74,17 @@ body {
     margin: 0.3rem 0;
     border-radius: 4px;
   }
-      
+  .accordion-btn {
+    width: 100%;
+    padding: 1rem;
+    background: #ddd;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .panel {
+    display: none;
+    padding: 1rem;
+    background: #eee;
+  }
+       
