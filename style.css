@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+  }
+  header {
+    background: #1e1e2f;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  header nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+  }
+  
