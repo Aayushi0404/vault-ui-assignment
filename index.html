@@ -1,59 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Vault of Codes</title>
-  <link rel="stylesheet" href="style.css" />
-  <script defer src="script.js"></script>
-</head>
 <body>
-
-  <header>
-    <h1>Vault of Codes</h1>
-    <nav>
-      <a href="#internships">Internships</a>
-      <a href="#projects">Projects</a>
-      <a href="#faq">FAQ</a>
-    </nav>
-  </header>
-  <section class="hero">
-    <h2>Explore Our Internships</h2>
-    <p>Frontend, Backend, Data Science, App Dev & more.</p>
-    <a href="#internships" class="btn">Browse Internships</a>
-  </section>
-  <section id="internships" class="cards">
-    <h2>Our Programs</h2>
-    <div class="card-grid">
-      <div class="card">Web Development</div>
-      <div class="card">App Development</div>
-      <div class="card">Python Programming</div>
-      <div class="card">Java Programming</div>
-      <div class="card">Canva Designing</div>
-    </div>
-  </section>
-  <section id="projects">
-    <h2>Projects</h2>
-    <input type="text" id="projectSearch" placeholder="Search projects..."/>
-    <ul id="projectList">
-      <li>Portfolio Website</li>
-      <li>To-Do App</li>
-      <li>AI Chatbot</li>
-      <li>Responsive UI Design</li>
-    </ul>
-  </section>
-  <section id="faq">
-    <h2>FAQs</h2>
-    <div class="accordion">
-      <div class="item">
-        <button class="accordion-btn">What is Vault of Codes?</button>
-        <div class="panel">A platform for tech internships and learning.</div>
+    <header>
+      <h1>Vault of Codes</h1>
+      <p class="tagline" id="tagline">Empowering Minds to Build the Future 💡</p>
+      <button id="darkModeToggle">🌙 Toggle Dark Mode</button>
+    </header>
+  
+    <section id="programs" class="section animate">
+      <h2>Our Programs</h2>
+      <button onclick="toggleSection('programList')">View Programs</button>
+      <ul id="programList" class="hidden animated-list">
+        <li>Web Development</li>
+        <li>AI / Machine Learning</li>
+        <li>Data Science</li>
+        <li>Cybersecurity</li>
+      </ul>
+    </section>
+  
+    <section id="projects" class="section animate">
+      <h2>Projects</h2>
+      <input type="text" id="projectSearch" placeholder="Search projects..." />
+      <ul id="projectList">
+        <li>Portfolio Website</li>
+        <li>AI Chatbot</li>
+        <li>Blog CMS</li>
+        <li>To-Do App</li>
+      </ul>
+    </section>
+  
+    <section id="faq" class="section animate">
+      <h2>FAQs</h2>
+      <div class="faq">
+        <button onclick="toggleFAQ(this)">What is Vault of Codes?</button>
+        <p class="faq-answer hidden">A platform for project-based learning and internships.</p>
+  
+        <button onclick="toggleFAQ(this)">Are the internships paid?</button>
+        <p class="faq-answer hidden">Some are paid; others offer certification and mentorship.</p>
       </div>
-      <div class="item">
-        <button class="accordion-btn">How do I apply?</button>
-        <div class="panel">Choose an internship and fill out the form.</div>
-      </div>
-    </div>
-  </section>
-  <button id="backToTop">⬆</button>
-       
+    </section>
+  
+    <button id="scrollTop">↑ Top</button>
+  
+    <footer>
+      <p>Made by Aayushi0404 | Vault of Codes Assignment</p>
+    </footer>
+  
+    <script src="script.js"></script>
+  </body>
+  
